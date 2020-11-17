@@ -39,9 +39,9 @@ Clean build artifcats
 mvn clean package
 ```
 
-Run packed program
+Run compiled and packaged JAR program
 ```
-java -cp target/... ...java.App
+java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
 ```
 
 Pack program, which inculdes Junit testing
@@ -60,4 +60,5 @@ maven clean
 ```
 
 ## References
+[Welcom to Apache Maven](https://maven.apache.org/index.html)
 [Maven for buidling java applications](https://www.vogella.com/tutorials/ApacheMaven/article.html#:~:text=Maven%20provides%20a%20command%20line,phase%20or%20goal%20to%20execute.)
