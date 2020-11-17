@@ -11,3 +11,4 @@
 
 # Maven meta files
 target/
+*.project
