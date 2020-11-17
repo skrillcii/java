@@ -2,7 +2,7 @@
 
 This is a java workspace to understand basics of java and also the usage of maven throught the development cycles.
 
-## Prerequistist
+## Prerequisite
 
 * [Maven 3.6](https://maven.apache.org/)
 * [OpenJDK 11](https://openjdk.java.net/)
