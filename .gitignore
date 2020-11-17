@@ -11,4 +11,6 @@
 
 # Maven meta files
 target/
+.classpath
+.settings/
 *.project
