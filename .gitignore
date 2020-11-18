@@ -2,16 +2,18 @@
 *.DS_Store
 
 # Development meta files
-*swo
-*swp
-*tags
+*.swo
+*.swp
 *.vim
+*.vim/
+*tags
 
 # Byte-compiled
+__pycache__/
 *.class
 
 # Maven meta files
 target/
-.classpath
 .settings/
-*.project
+.classpath
+.project
