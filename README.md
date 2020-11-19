@@ -49,9 +49,19 @@ Pack program, which inculdes Junit testing
 mvn package
 ```
 
-Run test solely
+Run test solely on all tests within the project
 ```
 mvn test
+```
+
+Run test solely on specified test class
+```
+mvn -Dtest=AppTest test
+```
+
+Run test solely on specified test class's unit test
+```
+mvn -Dtest=AppTest#shouldAnswerWithTrue test
 ```
 
 Remove all build results
