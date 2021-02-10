@@ -3,7 +3,6 @@ package py4j.examples;
 import java.util.LinkedList;
 import java.util.List;
 
-
 public class Stack {
     private List<String> internalList = new LinkedList<String>();
 

@@ -7,10 +7,11 @@ public class AdditionApplication {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        System.out.println("Staring server...");
         AdditionApplication app = new AdditionApplication();
         // app is now the gateway.entry_point
         GatewayServer server = new GatewayServer(app);
         server.start();
+        System.out.println("Server listening...");
     }
 }

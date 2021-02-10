@@ -1,19 +1,12 @@
 # Java Maven
-
 This shows an example usage of a maven project
 
 ## Prerequisite
-
-* [Maven 3.6](https://maven.apache.org/)
-* [OpenJDK 11](https://openjdk.java.net/)
 * [Ubuntu 20.04](https://releases.ubuntu.com/20.04/)
-
-```
-sudo apt-get install -y default-jre default-jdk maven
-```
+* [OpenJDK 11](https://openjdk.java.net/)
+* [Maven 3.6](https://maven.apache.org/)
 
 ## Useful Commands
-
 Create maven project, called my-app
 ```
 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
