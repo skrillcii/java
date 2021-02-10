@@ -5,7 +5,7 @@ This is a java workspace to understand basics of java, the usage of maven throug
 * [Ubuntu 20.04](https://releases.ubuntu.com/20.04/)
 * [OpenJDK 11](https://openjdk.java.net/)
 * [Maven 3.6](https://maven.apache.org/)
-* [py4j 0.10](https://www.py4j.org/#)
+* [Py4j 0.10](https://www.py4j.org/#)
 
 Install jre, jdk, maven
 ```
