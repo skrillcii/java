@@ -21,3 +21,23 @@ Initiate python runtime
 ```
 $ python3 AdditionApplication.py
 ```
+
+## Use Case of Stack & StackEntryPoint
+Compile
+```
+$ javac -cp ~/.pyenv/versions/3.x.x/share/py4j/* *.java
+```
+
+Execute
+```
+$ java -cp ~/.pyenv/versions/3.x.x/share/py4j/*. StackEntryPoint
+```
+
+Initiate python runtime
+```
+$ python3 StackEntryPoint.py
+```
+
+## References
+* [py4j-home](https://www.py4j.org/#)
+* [py4j-getting-started](https://www.py4j.org/getting_started.html)

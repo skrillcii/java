@@ -1,5 +1,3 @@
-package py4j.examples;
-
 import py4j.GatewayServer;
 
 public class StackEntryPoint {
@@ -16,7 +14,7 @@ public class StackEntryPoint {
     }
 
     public static void main(String[] args) {
-        GatewayServer gatewayServer = new GatewayServer(new StackEntryPoint());
+        GatewayServer gatewayServer = new GatewayServer(new StackEntryPoint(), 25333);
         gatewayServer.start();
         System.out.println("Gateway Server Started");
     }

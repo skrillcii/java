@@ -1,5 +1,3 @@
-package py4j.examples;
-
 import java.util.LinkedList;
 import java.util.List;
 

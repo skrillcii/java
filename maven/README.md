@@ -63,5 +63,5 @@ maven clean
 ```
 
 ## References
-[Welcom to Apache Maven](https://maven.apache.org/index.html)
-[Maven for buidling java applications](https://www.vogella.com/tutorials/ApacheMaven/article.html#:~:text=Maven%20provides%20a%20command%20line,phase%20or%20goal%20to%20execute.)
+* [Welcom to Apache Maven](https://maven.apache.org/index.html)
+* [Maven for buidling java applications](https://www.vogella.com/tutorials/ApacheMaven/article.html#:~:text=Maven%20provides%20a%20command%20line,phase%20or%20goal%20to%20execute.)
